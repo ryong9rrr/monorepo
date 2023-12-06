@@ -159,11 +159,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@monorepo/ui@workspace:^, @monorepo/ui@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/ui@workspace:packages/ui"
+  dependencies:
+    "@types/node": "npm:^20.10.3"
+    "@types/react": "npm:^18.2.42"
+    "@types/react-dom": "npm:^18.2.17"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:5.0.4"
+  languageName: unknown
+  linkType: soft
+
 "@monorepo/web@workspace:apps/web":
   version: 0.0.0-use.local
   resolution: "@monorepo/web@workspace:apps/web"
   dependencies:
     "@monorepo/lib": "workspace:^"
+    "@monorepo/ui": "workspace:^"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
@@ -337,7 +351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20":
+"@types/node@npm:^20, @types/node@npm:^20.10.3":
   version: 20.10.3
   resolution: "@types/node@npm:20.10.3"
   dependencies:
@@ -353,7 +367,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18":
+"@types/react-dom@npm:^18, @types/react-dom@npm:^18.2.17":
   version: 18.2.17
   resolution: "@types/react-dom@npm:18.2.17"
   dependencies:
@@ -362,7 +376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18":
+"@types/react@npm:*, @types/react@npm:^18, @types/react@npm:^18.2.42":
   version: 18.2.42
   resolution: "@types/react@npm:18.2.42"
   dependencies:
@@ -3148,7 +3162,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18":
+"react-dom@npm:^18, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -3167,7 +3181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18":
+"react@npm:^18, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
