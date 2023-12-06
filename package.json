@@ -1,7 +1,15 @@
 {
   "name": "my-monorepo",
   "packageManager": "yarn@4.0.1",
+  "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev:web": "yarn workspace @monorepo/web run dev"
+  },
+  "devDependencies": {
+    "typescript": "5.0.4"
+  }
 }
