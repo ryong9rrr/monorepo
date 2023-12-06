@@ -1,3 +1,3 @@
 export const sayHello = () => {
-  window.alert("hello");
+  window.alert('hello');
 };

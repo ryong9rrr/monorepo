@@ -7,9 +7,12 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "yarn workspace @monorepo/web run dev"
+    "dev:web": "yarn workspace @monorepo/web run dev",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "devDependencies": {
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.9",
     "typescript": "5.0.4"
   }
 }
