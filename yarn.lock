@@ -29,6 +29,48 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@apps/web@workspace:apps/web":
+  version: 0.0.0-use.local
+  resolution: "@apps/web@workspace:apps/web"
+  dependencies:
+    "@core/lib": "workspace:^"
+    "@core/ui": "workspace:^"
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    autoprefixer: "npm:^10.0.1"
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.0.3"
+    next: "npm:14.0.3"
+    postcss: "npm:^8"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    tailwindcss: "npm:^3.3.0"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
+"@apps/webapp@workspace:apps/webapp":
+  version: 0.0.0-use.local
+  resolution: "@apps/webapp@workspace:apps/webapp"
+  dependencies:
+    "@core/lib": "workspace:^"
+    "@core/ui": "workspace:^"
+    "@types/react": "npm:^18.2.37"
+    "@types/react-dom": "npm:^18.2.15"
+    "@typescript-eslint/eslint-plugin": "npm:^6.10.0"
+    "@typescript-eslint/parser": "npm:^6.10.0"
+    "@vitejs/plugin-react": "npm:^4.2.0"
+    eslint: "npm:^8.53.0"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.4"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+    vite: "npm:^5.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.22.13, @babel/code-frame@npm:^7.23.5":
   version: 7.23.5
   resolution: "@babel/code-frame@npm:7.23.5"
@@ -291,6 +333,27 @@ __metadata:
   checksum: 7dd5e2f59828ed046ad0b06b039df2524a8b728d204affb4fc08da2502b9dd3140b1356b5166515d229dc811539a8b70dcd4bc507e06d62a89f4091a38d0b0fb
   languageName: node
   linkType: hard
+
+"@core/lib@workspace:^, @core/lib@workspace:packages/lib":
+  version: 0.0.0-use.local
+  resolution: "@core/lib@workspace:packages/lib"
+  dependencies:
+    typescript: "npm:5.0.4"
+  languageName: unknown
+  linkType: soft
+
+"@core/ui@workspace:^, @core/ui@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@core/ui@workspace:packages/ui"
+  dependencies:
+    "@types/node": "npm:^20.10.3"
+    "@types/react": "npm:^18.2.42"
+    "@types/react-dom": "npm:^18.2.17"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:5.0.4"
+  languageName: unknown
+  linkType: soft
 
 "@esbuild/android-arm64@npm:0.19.8":
   version: 0.19.8
@@ -568,69 +631,6 @@ __metadata:
   checksum: 0ea0b2675cf513ec44dc25605616a3c9b808b9832e74b5b63c44260d66b58558bba65764f81928fc1033ead911f8718dca1134049c3e7a93937faf436671df31
   languageName: node
   linkType: hard
-
-"@monorepo/lib@workspace:^, @monorepo/lib@workspace:packages/lib":
-  version: 0.0.0-use.local
-  resolution: "@monorepo/lib@workspace:packages/lib"
-  dependencies:
-    typescript: "npm:5.0.4"
-  languageName: unknown
-  linkType: soft
-
-"@monorepo/ui@workspace:^, @monorepo/ui@workspace:packages/ui":
-  version: 0.0.0-use.local
-  resolution: "@monorepo/ui@workspace:packages/ui"
-  dependencies:
-    "@types/node": "npm:^20.10.3"
-    "@types/react": "npm:^18.2.42"
-    "@types/react-dom": "npm:^18.2.17"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    typescript: "npm:5.0.4"
-  languageName: unknown
-  linkType: soft
-
-"@monorepo/web@workspace:apps/web":
-  version: 0.0.0-use.local
-  resolution: "@monorepo/web@workspace:apps/web"
-  dependencies:
-    "@monorepo/lib": "workspace:^"
-    "@monorepo/ui": "workspace:^"
-    "@types/node": "npm:^20"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    autoprefixer: "npm:^10.0.1"
-    eslint: "npm:^8"
-    eslint-config-next: "npm:14.0.3"
-    next: "npm:14.0.3"
-    postcss: "npm:^8"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-    tailwindcss: "npm:^3.3.0"
-    typescript: "npm:^5"
-  languageName: unknown
-  linkType: soft
-
-"@monorepo/webapp@workspace:apps/webapp":
-  version: 0.0.0-use.local
-  resolution: "@monorepo/webapp@workspace:apps/webapp"
-  dependencies:
-    "@monorepo/lib": "workspace:^"
-    "@monorepo/ui": "workspace:^"
-    "@types/react": "npm:^18.2.37"
-    "@types/react-dom": "npm:^18.2.15"
-    "@typescript-eslint/eslint-plugin": "npm:^6.10.0"
-    "@typescript-eslint/parser": "npm:^6.10.0"
-    "@vitejs/plugin-react": "npm:^4.2.0"
-    eslint: "npm:^8.53.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.4"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.2.2"
-    vite: "npm:^5.0.0"
-  languageName: unknown
-  linkType: soft
 
 "@next/env@npm:14.0.3":
   version: 14.0.3
@@ -3476,6 +3476,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "monorepo@workspace:."
+  dependencies:
+    prettier: "npm:^3.1.0"
+    prettier-plugin-tailwindcss: "npm:^0.5.9"
+    typescript: "npm:5.0.4"
+  languageName: unknown
+  linkType: soft
+
 "ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
@@ -3489,16 +3499,6 @@ __metadata:
   checksum: d924b57e7312b3b63ad21fc5b3dc0af5e78d61a1fc7cfb5457edaf26326bf62be5307cc87ffb6862ef1c2b33b0233cdb5d4f01c4c958cc0d660948b65a287a48
   languageName: node
   linkType: hard
-
-"my-monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "my-monorepo@workspace:."
-  dependencies:
-    prettier: "npm:^3.1.0"
-    prettier-plugin-tailwindcss: "npm:^0.5.9"
-    typescript: "npm:5.0.4"
-  languageName: unknown
-  linkType: soft
 
 "mz@npm:^2.7.0":
   version: 2.7.0

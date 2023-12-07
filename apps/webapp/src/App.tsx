@@ -2,8 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
-import { Button } from '@monorepo/ui';
-import { sayHello } from '@monorepo/lib';
+import { Button } from '@core/ui';
+import { sayHello } from '@core/lib';
 
 function App() {
   const [count, setCount] = useState(0);

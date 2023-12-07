@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/lib",
+  "name": "@core/lib",
   "packageManager": "yarn@4.0.1",
   "private": true,
   "main": "./src/index.ts",

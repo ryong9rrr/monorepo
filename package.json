@@ -1,5 +1,5 @@
 {
-  "name": "my-monorepo",
+  "name": "monorepo",
   "packageManager": "yarn@4.0.1",
   "private": true,
   "workspaces": [
@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "dev:all": "yarn workspaces foreach -A --parallel run dev",
-    "dev:web": "yarn workspace @monorepo/web run dev",
-    "dev:webapp": "yarn workspace @monorepo/webapp run dev",
+    "dev:web": "yarn workspace @apps/web run dev",
+    "dev:webapp": "yarn workspace @apps/webapp run dev",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "devDependencies": {
