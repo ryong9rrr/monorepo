@@ -1,3 +1,3 @@
-export const sayHello = () => {
-  window.alert('hello');
-};
+export * as Say from './say';
+
+export * as Calculator from './calculator';

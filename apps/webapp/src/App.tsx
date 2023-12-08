@@ -3,15 +3,19 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import { Button } from '@core/ui';
-import { sayHello } from '@core/lib';
+import { Say } from '@core/lib';
 
 function App() {
   const [count, setCount] = useState(0);
 
+  const handleClick = () => {
+    window.alert(Say.say('hello'));
+  };
+
   return (
     <>
       <div>
-        <Button onClick={sayHello}>ui에서 가져온 버튼이에요</Button>
+        <Button onClick={handleClick}>ui에서 가져온 버튼이에요</Button>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
