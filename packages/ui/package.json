@@ -8,9 +8,22 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.4",
+    "@storybook/addon-interactions": "^7.6.4",
+    "@storybook/addon-links": "^7.6.4",
+    "@storybook/addon-onboarding": "^1.0.9",
+    "@storybook/blocks": "^7.6.4",
+    "@storybook/react": "^7.6.4",
+    "@storybook/react-webpack5": "^7.6.4",
+    "@storybook/test": "^7.6.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "storybook": "^7.6.4",
     "typescript": "^5"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }
