@@ -8,10 +8,11 @@
   ],
   "scripts": {
     "dev:all": "yarn workspaces foreach -A --parallel run dev",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\" --cache",
     "dev:web": "yarn workspace @apps/web run dev",
     "dev:webapp": "yarn workspace @apps/webapp run dev",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\" --cache"
+    "dev:storybook": "yarn workspace @core/ui run dev"
   },
   "dependencies": {
     "react": "^18.2.0",
