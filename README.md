@@ -1,4 +1,6 @@
-# my-monorepo
+# monorepo
+
+- node 20
 
 - 만약 이 repository를 clone 한다면...
 
