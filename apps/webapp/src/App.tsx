@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <Button text="ui에서 가져온 버튼이에요" onClick={sayHello} />
+        <Button onClick={sayHello}>ui에서 가져온 버튼이에요</Button>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
