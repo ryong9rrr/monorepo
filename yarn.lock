@@ -82,7 +82,6 @@ __metadata:
     "@types/react": "npm:^18.2.43"
     "@types/react-dom": "npm:^18.2.17"
     babel-jest: "npm:^29.7.0"
-    cra-template: "npm:1.2.0"
     customize-cra: "npm:^1.0.0"
     identity-obj-proxy: "npm:^3.0.0"
     jest: "npm:^29.7.0"
@@ -7901,13 +7900,6 @@ __metadata:
     path-type: "npm:^4.0.0"
     yaml: "npm:^1.10.0"
   checksum: b923ff6af581638128e5f074a5450ba12c0300b71302398ea38dbeabd33bbcaa0245ca9adbedfcf284a07da50f99ede5658c80bb3e39e2ce770a99d28a21ef03
-  languageName: node
-  linkType: hard
-
-"cra-template@npm:1.2.0":
-  version: 1.2.0
-  resolution: "cra-template@npm:1.2.0"
-  checksum: c97d3d3a40aa59a3918d03f0d59cb08cfa16d4d44d28e71afeb8b08ef7be8485a8467d04c27def9a6dde6eef6659160ebb1e26f045ff42b8f191d33733745a75
   languageName: node
   linkType: hard
 
