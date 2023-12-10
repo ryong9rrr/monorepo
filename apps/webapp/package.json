@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@core/lib": "workspace:^",
+    "@core/ui": "workspace:^",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "react": "^18",
