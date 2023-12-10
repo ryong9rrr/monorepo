@@ -5,7 +5,7 @@ module.exports = {
       '@babel/preset-react',
       {
         runtime: 'automatic',
-        importSource: '@emotion/react',
+        // importSource: '@emotion/react',
       },
     ],
     ['@babel/preset-env', { targets: { node: 'current' } }],
