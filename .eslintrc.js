@@ -15,8 +15,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'eslint-config-prettier',
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
   ],
-  plugins: ['@typescript-eslint', 'import', 'prettier', 'react', 'react-hooks'],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  plugins: ['@typescript-eslint', 'import', 'prettier', 'react', 'react-hooks', 'react-refresh'],
   settings: { react: { version: 'detect' } },
   overrides: [],
   rules: {
