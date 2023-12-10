@@ -19,9 +19,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.10.4",
-    "@types/react": "^18.2.42",
-    "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
     "eslint": "^8.55.0",
@@ -42,6 +39,7 @@
     "typescript": "5.0.4"
   },
   "resolutions": {
+    "typescript": "5.0.4",
     "@storybook/addon-essentials": "^7.6.4",
     "@storybook/addon-interactions": "^7.6.4",
     "@storybook/addon-links": "^7.6.4",
@@ -49,6 +47,9 @@
     "@storybook/blocks": "^7.6.4",
     "@storybook/react": "^7.6.4",
     "@storybook/react-webpack5": "^7.6.4",
-    "@storybook/test": "^7.6.4"
+    "@storybook/test": "^7.6.4",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17"
   }
 }
